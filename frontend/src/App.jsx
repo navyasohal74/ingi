@@ -3,7 +3,8 @@ import axios from 'axios';
 
 // 🚨 CRITICAL: Change this URL to your live Render.com URL before deploying to Vercel!
 // Example: const API_URL = 'https://your-backend-name.onrender.com/api/contacts';
-const API_URL = 'http://localhost:5000/api/contacts';
+// const API_URL = 'http://localhost:5000/api/contacts';
+const API_URL = 'https://ingi.onrender.com/';
 
 function App() {
   const [contacts, setContacts] = useState([]);
